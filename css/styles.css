@@ -1,58 +1,66 @@
 :root {
   --brand-color: #212121;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--brand-color);
 }
+
 .study {
   font-family: 'Raleway', sans-serif;
   color: #2196f3;
 }
+
 .link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--brand-color);
 }
+
 .link:hover,
 .buttons:hover,
 .contact:hover,
 .button1:hover {
   color: blue;
 }
+
 .link:active,
 .buttons:active,
 .button1:active {
   color: green;
 }
+
 .contact {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
+
 .title1 {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
   background: #2f303a;
 }
+
 .button1 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -64,12 +72,13 @@ body {
 
   color: #ffffff;
 }
+
 .buttons {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
@@ -77,64 +86,70 @@ body {
   cursor: pointer;
   background: #2196f3;
 }
+
 .text {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .title2 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 2, 62;
+  line-height: 2.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color);
 }
+
 .title3 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color);
 }
+
 .subtitles {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color);
 }
+
 .carge {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 18x;
+  line-height: 1.18;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .piepage {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: #ffffff;
