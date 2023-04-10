@@ -30,7 +30,8 @@ body {
 
 .link:active,
 .buttons:active,
-.button1:active {
+.button1:active,
+.contact:active {
   color: green;
 }
 
