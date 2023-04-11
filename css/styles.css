@@ -73,10 +73,15 @@ body {
 .contact:active {
   color: var(--brand2-color);
 }
-.buttons:focus,
-.link1:focus,.link2:focus,.link3:focus{
+.buttons:focus{
   background-color: var(--brand2-color);
   color: #ffffff;
+}
+.link1:focus,
+.link2:focus,
+.link3:focus{
+  background-color: #ffffff;
+  color: var(--brand2-color);
 }
 
 .contact {
