@@ -1,6 +1,7 @@
 :root {
   --brand-color: #212121;
   --brand2-color: #2196f3;
+  --brand3-color: #ffffff;
 }
 
 body {
@@ -58,32 +59,28 @@ body {
 .link1:hover,
 .link2:hover,
 .link3:hover,
+.contact:hover {
+  color: var(--brand2-color);
+}
 .buttons:hover,
-.contact:hover,
 .button1:hover {
   background-color: var(--brand2-color);
-  color: #ffffff;
+  color: var(--brand3-color);
 }
-
 .link1:active,
 .link2:active,
 .link3:active,
-.buttons:active,
 .button1:active,
 .contact:active {
   color: var(--brand2-color);
 }
 .buttons:focus{
   background-color: var(--brand2-color);
-  color: #ffffff;
+  color: var(--brand3-color);
 }
-.link1:focus,
-.link2:focus,
-.link3:focus{
-  background-color: #ffffff;
+/* .links .link1:focus{
   color: var(--brand2-color);
-}
-
+} */
 .contact {
   font-style: normal;
   font-weight: 500;
@@ -120,7 +117,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--brand3-color);
 }
 
 .buttons {
